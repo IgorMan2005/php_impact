@@ -98,8 +98,8 @@ require 'header.php';
               <ul>
                 <li><strong>Category</strong> <span>Web design</span></li>
                 <li><strong>Client</strong> <span>ASU Company</span></li>
-                <li><strong>Project date</strong> <span>01 March, 2020</span></li>
-                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
+                <li><strong>Project date</strong> <span>01 March, <?= date('Y') ?></span></li>
+                <li><strong>Project URL</strong> <a target="_blank" href="<?= $config['project_url'] ?>"><?= $config['project_url'] ?></a></li>
                 <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
               </ul>
             </div>
@@ -114,4 +114,3 @@ require 'header.php';
 
   <?php
   require 'footer.php';
-  

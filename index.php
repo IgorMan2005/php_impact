@@ -13,6 +13,7 @@ require 'hero.php';
       require 'calltoaction.php';
       require 'services.php';
       require 'testimonials.php';
+      require 'portfolio.php';
       require 'team.php';
       require 'pricing.php';
       require 'faq.php';
