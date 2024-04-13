@@ -7,6 +7,7 @@ $config = [
     'browser_title' => 'My Company corp web site',					        // Browser title
     'description' => 'My Company - best company in the World',	            // Description
     'keywords' => 'company, best, business',								// Keywords
+    'project_url' => 'https://best-itpro.ru',								// Project URL
 
     // Contacts
     'phone' => '+7 999 888-7733',
